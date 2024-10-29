@@ -1,0 +1,15 @@
+# Visual Studio ignores
+textify/*.user
+textify/*.suo
+textify/[Bb]in/
+textify/[Dd]ebug/
+
+# PyCharm ignores
+textityPython/__pycache__/
+textityPython/.idea/
+textityPython/venv/
+
+# STS ignores
+stsProject/.classpath
+stsProject/.project
+stsProject/bin/
