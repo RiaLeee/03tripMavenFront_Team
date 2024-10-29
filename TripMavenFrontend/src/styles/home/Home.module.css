@@ -1,0 +1,303 @@
+.homeContainer {
+  
+}
+
+.headerimg {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% -300px;
+  margin-top: -17px;
+  animation: slideShow 25s infinite;
+}
+
+@keyframes slideShow {
+  0% {
+    background-image: url("../../../public/images/HomeHeader2.jpg");
+  }
+  33% {
+    background-image: url("../../../public/images/HomeHeader3.jpg");
+  }
+  66% {
+    background-image: url("../../../public/images/HomeHeader1.jpg");
+  }
+  100% {
+    background-image: url("../../../public/images/HomeHeader2.jpg");
+  }
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border: 1px solid #0066ff;
+  border-radius: 8px;
+}
+
+.searchInput {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0056b3;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.popularDestinations {
+  margin-bottom: 40px;
+}
+
+.destinationsTitleViewAllButton {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.destinationsTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buttonStyle {
+  display: flex;
+  align-items: end;
+}
+
+.viewAllButton {
+  padding: 10px 20px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.destinationList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destinationCard {
+  width: 150px;
+  text-align: center;
+}
+
+.destinationImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.destinationName {
+  font-size: 16px;
+  color: #333;
+}
+
+.infoSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoBox {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #0066ff;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.infoTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.infoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.infoList li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.aiSection {
+  position: relative;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: height 0.3s ease-in-out;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.waveContainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.waves {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  bottom: 0;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.parallax > use:nth-child(1) { animation-delay: -2s; animation-duration: 7s; }
+.parallax > use:nth-child(2) { animation-delay: -3s; animation-duration: 10s; }
+.parallax > use:nth-child(3) { animation-delay: -4s; animation-duration: 13s; }
+.parallax > use:nth-child(4) { animation-delay: -5s; animation-duration: 20s; }
+
+@keyframes move-forever {
+  0% { transform: translate3d(-90px,0,0); }
+  100% { transform: translate3d(85px,0,0); }
+}
+
+.aiContent {
+  position: relative;
+  z-index: 2;
+}
+
+.aiImageContainer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+}
+
+.aiImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.aiTitle {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  margin-bottom: 0.5rem;
+}
+
+.aiDescription {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.aiButton {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+  color: #0066ff !important;
+  background-color: #ffffff !important;
+  border-radius: 2rem !important;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.aiButton:hover {
+  background-color: #f0f0f0 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+.serviceCard {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.serviceCardContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.serviceCard .serviceTitle {
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold !important;
+  margin-bottom: 8px !important;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.serviceDescription {
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.serviceCard:hover .serviceCardContent {
+  background: rgba(0, 0, 255, 0.7);
+}
+
+.serviceCard:hover .serviceTitle {
+  opacity: 1;
+  color: white !important;
+}
+
+.serviceCard:hover .serviceDescription {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  .serviceCard {
+    height: 150px;
+  }
+}
+
+/* 반응형 파도 높이 */
+@media (max-width: 768px) {
+  .waves {
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .waves {
+    height: 120px;
+  }
+}

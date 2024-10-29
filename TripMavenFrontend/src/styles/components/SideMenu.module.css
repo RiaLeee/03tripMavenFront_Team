@@ -1,0 +1,122 @@
+/* 전체 레이아웃을 위한 컨테이너 */
+.layout-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* 사이드바 스타일 */
+  .sidebar {
+    width: 220px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: -5px;
+    border-right: 1px solid rgba(160, 160, 160, 0.2);
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+  }
+
+  .sidebarTitle {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  /* 메인 컨텐츠 영역 스타일 */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    
+  }
+  
+  .mypageLogo {
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 6px;
+    padding-bottom: 0;
+    margin: 0;
+    
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .sidebarItem {
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .navButton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebarItem:hover .navButton {
+    margin-left: 4px;
+    border-radius: 10px;
+    color: #0066ff;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .label {
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .sidebarItem:hover .icon,
+  .sidebarItem:hover .label {
+    transform: translateX(5px);
+  }
+  
+  .sidebarItem:hover .label {
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  .sidebarItem:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #0066ff;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebarItem:hover:after {
+    width: 100%;
+  }
+  
+  .active .navButton {
+    font-weight: bold;
+    color: #0066ff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .layout-container {
+      flex-direction: column;
+    }
+    
+    .sidebar {
+      width: 100%;
+      height: auto;
+    }
+    
+    .sidebarItem {
+      margin-left: 0;
+    }
+  }

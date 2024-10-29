@@ -1,0 +1,15 @@
+.page {
+    display: flex;
+    font-family: Arial, sans-serif;
+    min-height: calc(100vh - 204px); /*헤더의 높이를 뺀 높이 */
+    margin-top: 60px; /* 헤더의 높이만큼 여백 */
+    padding-bottom: 0;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px 20px 0 20px;
+    margin-left: 0; /* SideMenu의 너비(200px) + 여백(20px) */
+    width: calc(100% - 220px);
+    overflow-y: auto;
+}

@@ -1,0 +1,120 @@
+.container {
+    margin-top: 20px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-top: 120px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.lineImage {
+    display: block;
+    margin: 0 auto;
+}
+
+.subtitle {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23px;
+}
+
+.contentBox {
+    width: 1150px;
+    height: 400px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.speakIcon {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.textContent {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: -300px;
+}
+
+.selectContainer {
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.resultButton {
+    background-color: #0066ff;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    align-content: right;
+}
+
+.audioSelect {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.statusMessage {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: #4caf50; /* Material UI 'success.main'와 비슷한 색상 */
+}
+
+.error {
+    color: #f44336; /* Material UI 'error'와 비슷한 색상 */
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #979797;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.recordButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.micIcon {
+    width: 80px;
+    height: 80px;
+}

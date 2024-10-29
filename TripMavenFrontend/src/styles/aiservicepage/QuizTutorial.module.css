@@ -1,0 +1,36 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.contentFrame {
+    height: 400px;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.licenseInfoConfirm {
+    width: 550px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 430px;
+  }
+  

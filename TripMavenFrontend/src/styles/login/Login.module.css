@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.loginBox {
+  margin-top: 80px;
+  width: 360px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.inputGroup label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.autoLogin {
+  display: flex;
+  align-items: center;
+}
+
+.autoLogin input {
+  margin-right: 5px;
+}
+
+.findPassword {
+  font-size: 12px;
+  color: #0066ff;
+  text-decoration: none;
+}
+
+.findPassword:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.extraOptions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.extraOption {
+  font-size: 12px;
+  color: #0066ff;
+  text-decoration: none;
+  margin: 0 5px; /* 좌우 여백 추가 */
+}
+
+.extraOption:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  margin: 0 5px; /* 구분자의 좌우 여백 */
+  color: #0066ff;
+  font-size: 12px;
+}
+
+.snsLogin {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.snsLoginText {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.snsIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.snsIcon {
+  width: 36px;
+  height: 36px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.snsIcon:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,237 @@
+.postHeaderContainer {
+  padding: 20px;
+}
+
+.shadowBox {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.titleSection {
+  margin-bottom: 10px;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.hashtagBox {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.imageGallery {
+  display: flex;
+  gap: 10px; /* Space between images */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imageGallery img {
+  width: 100px; /* Set the width of each image */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.symbolsSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.symbols {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #000000;
+}
+
+.symbol {
+  margin-right: 10px;
+}
+
+.star {
+  color: gold;
+  margin-right: 5px;
+}
+
+.blueStar {
+  color: blue;
+  margin-right: 5px;
+}
+
+.likeButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: red;
+  outline: none;
+}
+
+.likeButton .filledHeart {
+  color: red;
+}
+
+.likeButton .emptyHeart {
+  color: red;
+}
+
+.likeCount {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.mapSection {
+  margin-top: 20px;
+}
+
+.mapContainer {
+  width: 100%;
+  height: 400px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center; /* Center-align buttons horizontally */
+  gap: 16px; /* Adjust spacing between buttons */
+}
+
+.actionButton {
+  border-radius: 8px; /* Rounded corners */
+  padding: 8px 16px; /* Padding for button */
+}
+
+
+.blur{
+  overflow: hidden;
+}
+/*
+
+.wrapper{
+  position: relative;
+} */
+
+.blurOverlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px; /* 블러가 적용되는 높이 설정 */
+/*  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255) 90%);
+  backdrop-filter: blur(8px); /* 블러 강도 조정 */
+  /*pointer-events: none; /* 클릭이 블러 오버레이를 통과하여 아래 요소에 전달되도록 설정 */
+
+  height: 100px; /* 블러가 적용되는 높이 설정 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255) 90%);
+  backdrop-filter: blur(0.3px); /* 블러 강도 조정 */
+  pointer-events: none; /* 클릭이 블러 오버레이를 통과하여 아래 요소에 전달되도록 설정 */
+}
+
+/* Layout.module.css */
+.root {
+display: flex;
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 60px;
+background-color: #3f51b5;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000;
+}
+
+.sidebar {
+width: 240px;
+background-color: #f4f4f4;
+height: 100vh;
+position: fixed;
+top: 60px; /* Adjust according to header height */
+left: 0;
+padding-top: 20px;
+box-sizing: border-box;
+
+}
+
+.content {
+margin-left: 240px; /* Adjust according to sidebar width */
+margin-top: 60px; /* Adjust according to header height */
+padding: 20px;
+flex-grow: 1;
+background-color: #fff;
+}
+
+
+.hashtagButton {
+  background: linear-gradient(45deg, #3b8ffd 30%, #a1bde0 90%); /* Lighter blue and sky blue gradient */
+  color: white; /* Text color */
+  box-shadow: 0 3px 5px 2px rgba(160, 196, 255, 0.3); /* Lighter shadow */
+  border-radius: 20px; /* Rounded corners */
+  text-transform: none; /* Preserve text case */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  padding: 6px 12px; /* Padding inside the button */
+  font-size: 14px; /* Font size */
+  transition: background 0.3s ease-in-out; /* Smooth transition for hover effect */
+  margin-right: 8px; /* Spacing between buttons */
+  margin-bottom: 8px; /* Spacing between rows */
+}
+
+.hashtagButton:hover {
+  background: linear-gradient(45deg, #C9EAF3 30%, #A0C4FF 90%); /* Subtle gradient change on hover */
+}
+
+.container {
+  margin-top: 20px; /* Adjust the value as needed */
+  padding: 0;
+}
+
+/* ButtonStyles.module.css */
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%; /* 전체 너비를 사용하여 왼쪽 정렬 */
+}
+
+.outlinedButton {
+  margin-right: 16px; /* 버튼 오른쪽에 마진 추가 */
+  justify-content: flex-start;
+}

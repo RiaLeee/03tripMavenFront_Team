@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .options li {
+    margin: 10px 0;
+  }
+  
+  .listItemButton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #8dbbff;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.25s;
+    font-size: 16px;
+  }
+  
+  .listItemButton:hover {
+    background-color: #e6f1ff;
+  }
+  
+  .listItemButton.selected {
+    background-color: #d8eaff;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:disabled {
+    background-color: #b9b9b9;
+    cursor: not-allowed;
+  }
+  

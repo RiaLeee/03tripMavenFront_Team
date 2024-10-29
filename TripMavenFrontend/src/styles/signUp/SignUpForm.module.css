@@ -1,0 +1,81 @@
+.form {
+    max-width: 600px;
+    padding-top: 100px;  /* 헤더의 높이에 맞춰 패딩 조절 */
+    padding-bottom: 60px;  /* 푸터의 높이에 맞춰 패딩 조절 */
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.formGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.label {
+    width: 100px; /* 레이블의 고정 너비 설정 */
+    font-size: 16px;
+}
+
+.input,
+.select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px; /* 입력 필드와 셀렉트 박스의 고정 너비 설정 */
+    box-sizing: border-box; /* 패딩과 보더를 포함한 너비 계산 */
+}
+
+.checkButton,
+.searchButton {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    height: 40px; /* 버튼 높이 고정 */
+}
+
+.checkButton:hover,
+.searchButton:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.addressContainer {
+    display: flex;
+    align-items: center;
+}
+
+.submitButtonContainer {
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+}
+
+.submitButton {
+    width: 300px;
+    padding: 15px; /* 버튼 높이를 맞추기 위해 패딩을 조정 */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* 상단 마진 추가 */
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}

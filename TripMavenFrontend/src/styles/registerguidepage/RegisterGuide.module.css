@@ -1,0 +1,88 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.contentFrame {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fieldGroup {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputFile {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #0066ff;
+  border-radius: 8px;
+  color: #666;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.inputFile:hover {
+  border-color: #0056b3;
+}
+
+.inputFile input[type="file"] {
+  display: none;
+}
+
+.textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #0066ff;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+}
+
+.buttonblock {
+  display: flex;
+  justify-content: end;
+  
+}
+
+.button {
+  display: block;
+  width: 120px;
+  padding: 10px 20px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.licenseInfoConfirm {
+  margin-left: 20px;
+  max-width: 40%;
+  width: 500px;
+}

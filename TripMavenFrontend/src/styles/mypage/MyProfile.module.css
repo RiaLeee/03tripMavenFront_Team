@@ -1,0 +1,133 @@
+/* 공통 컨테이너 */
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw; /* 전체 화면 너비 */
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* 콘텐츠 영역 스타일 */
+.content {
+  display: flex; /* Flex 레이아웃 추가 */
+  flex-direction: column; /* 콘텐츠를 세로로 정렬 */
+  width: 100%; /* 전체 너비로 확장 */
+  max-width: 1000px; /* 최대 너비 설정 */
+  padding: 15px;
+  margin: 0 auto; /* 가운데 정렬 */
+  box-sizing: border-box;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+/* 프로필 및 폼 스타일 */
+
+
+.header {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.navButton {
+  margin: 0 8px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.navButton:hover,
+.dropdownButton:hover {
+  color: #0066ff;
+}
+
+.sidebarTitle {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menuItem {
+  margin-bottom: 8px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menuItem:hover {
+  color: #0066ff;
+}
+
+.mainContent {
+  flex-grow: 1;
+}
+
+.titlecotainer {
+  display: flex;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttoncontainer {
+  margin-top: 10px;
+}
+
+.passwdButton {
+  color: #0066ff;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  margin-right: 815px;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* 간격을 20px에서 40px로 증가 */
+  width: 80%; /* 전체 너비의 80%로 설정 */
+  max-width: 1000px; /* 최대 너비를 1200px로 설정 */
+}
+
+.avatar {
+  width: 120px !important; /* 너비를 150px로 증가 */
+  height: 120px !important; /* 높이도 150px로 증가 */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 텍스트 박스들 스타일 */
+.texts {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 15px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

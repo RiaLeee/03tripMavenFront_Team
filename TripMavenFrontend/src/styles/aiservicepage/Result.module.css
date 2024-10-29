@@ -1,0 +1,137 @@
+.container {
+    margin: 0 auto;
+    width: 1100px;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    font-size: 34px;
+    text-align: left;
+    margin-top: 23px;
+    margin-bottom: 25px;
+  }
+  
+  .chartPtagContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .resultbox {
+    width: 660px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수직 가운데 정렬 */
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #ffffff;
+  }
+  
+  .boxheader {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .chartContainer {
+    display: flex;
+    align-items: flex-start;
+    align-items: center; /* 수평 가운데 정렬 */
+    margin-bottom: 20px;
+  }
+  
+  .circlechart {
+    
+  }
+
+  .linechart {
+    margin-left: -30px;
+  }
+
+  .totalContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .totalPtag {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 2px;
+    /*font-weight: 550;*/
+    
+  }
+  
+  .improvWordCloudContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .wordCloudContainer {
+    flex: 1;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .wordCloudheader {
+    font-size: 27px;
+    font-weight: bold;
+
+  }
+  
+  .improvContainer {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .improvHeader {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .improv1 {
+    margin-top: 15px;
+    font-size: 18px;
+   
+  }
+  
+  .improvTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .improvResult {
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .button {
+    background-color: #0066ff;
+    border: none;
+    color: #ffffff;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 3px;
+    text-align: center;
+
+
+  }

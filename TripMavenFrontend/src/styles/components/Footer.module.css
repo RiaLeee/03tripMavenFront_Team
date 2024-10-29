@@ -1,0 +1,78 @@
+.footer {
+  /*border: 1px black solid;*/
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  text-align: center;
+  min-width: 1440px;
+  width: 100vw;
+}
+
+.footerLeft {
+  text-align: left;
+}
+
+.tripMaven {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0066ff;
+  cursor: pointer;
+}
+
+
+.happyFindReporter {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.happyFindReporterSpan {
+  display: block;
+  font-size: 16px;
+  color: #666;
+}
+
+.happyFindReporterSpan2 {
+  font-size: 14px;
+  color: #666;
+}
+
+.footerRight {
+  text-align: right;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.footerLink {
+  font-size: 14px;
+  color: #666;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+.navButton:hover, .dropdownButton:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.bar {
+  color: #999;
+
+}

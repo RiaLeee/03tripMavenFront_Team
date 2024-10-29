@@ -1,0 +1,84 @@
+
+.chartContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.scoreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tableContainer {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.scoreContainer {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.aiServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.aiai {
+    font-weight: bolder;
+    font-size: 2.3rem;
+    margin-top: 50px;
+    margin-left: 0; 
+    padding-left: 0; 
+    text-align: left; 
+    position: relative;
+    left: -480px; 
+}
+
+/* 테이블 행 hover 효과 */
+.table tr:hover {
+    background-color: #f1f1f1; /* 배경색 변경 */
+    cursor: pointer; /* 커서 변경 */
+    transition: background-color 0.3s ease; /* 부드러운 전환 효과 */
+}

@@ -1,0 +1,113 @@
+/* UserLike.module.css */
+.container {
+  margin-left: 30px;
+  max-width: 1100px;
+  padding-bottom: 60px;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titleContainer h1 {
+  margin: 0;
+  margin-right: 10px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.likeicon {
+  width: 30px;
+  height: auto;
+  margin-left: 5px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.sortSelect {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.searchInput {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.productItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.productItem img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.productItem .likeicon1 {
+  width: 25px;
+  height: auto;
+  margin-left: auto;
+}
+
+.productItem h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.productItem p {
+  margin: 5px 0 0;
+}
+
+.hashtags {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin-top: 10px; 
+  
+}
+
+.hashtagBox {
+  background-color: #e0e0e0; 
+  padding: 5px 10px; 
+  border-radius: 3px; 
+  font-size: 14px; 
+  color: #333; 
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating span {
+  margin-right: 10px;
+  font-size: 14px;
+}

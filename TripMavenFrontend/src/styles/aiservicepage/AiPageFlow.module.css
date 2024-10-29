@@ -1,0 +1,102 @@
+/* 전체 컨테이너 스타일 */
+.container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+/* 설명 섹션 */
+.descriptionSection {
+  max-width: 1200px;
+  margin: 25px auto;
+}
+
+/* 설명 아이템 */
+.descriptionItem {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 1.5rem;
+}
+
+/* 라벨 스타일 */
+.label {
+  width: 250px;
+  background-color: #003366; /* 기본 남색 */
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  display: flex; /* 수직 중앙 정렬을 위해 flex 사용 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  margin-right: 1rem;
+}
+
+/* 설명 텍스트 */
+.descText {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  display: flex; /* 수직 중앙 정렬을 위해 flex 사용 */
+  align-items: center; /* 수직 중앙 정렬 */
+  margin: 0; /* 상하 여백 제거 */
+}
+
+.descSpan {
+  font-size: 18px;
+  color: #0056d6;
+  font-weight: bold;
+}
+
+/* 순환형 흐름 섹션 */
+.flowContainer {
+  position: relative;
+  width: 800px; /* 전체 컨테이너 폭 */
+  height: 500px; /* 전체 컨테이너 높이 */
+  margin: 0 auto;
+}
+
+/* 곡선을 위한 SVG */
+.curves {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.curve {
+  fill: none;
+  stroke: #A9A9A9; /* 곡선의 색상 */
+  stroke-width: 2;
+}
+
+/* 화살표 머리 */
+.arrow {
+  fill: #A9A9A9;
+}
+
+/* 중앙 타이틀 */
+.centerTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+/* 개별 단계 스타일 */
+.flowItem {
+  position: absolute;
+}
+
+.flowTitle {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: #003366; /* 기본 남색 */
+}

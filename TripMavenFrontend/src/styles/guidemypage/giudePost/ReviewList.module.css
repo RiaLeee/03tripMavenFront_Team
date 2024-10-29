@@ -1,0 +1,62 @@
+.container {
+  width: 100%; /* 부모 요소의 가로폭을 꽉 채움 */
+  margin: 0 auto;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.reviewHeaderTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.reviewCount {
+  font-size: 1rem;
+  color: gray;
+}
+
+.reviewItem {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  width: 100%; /* 가로폭을 100%로 */
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.reviewDetails {
+  flex: 1;
+}
+
+.reviewerName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reviewTitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reviewText {
+  margin-bottom: 10px;
+}
+
+.reviewRating {
+  color: #f5c518; /* Gold color for stars */
+}
+
+.reviewRating svg {
+  margin-right: 5px;
+}
