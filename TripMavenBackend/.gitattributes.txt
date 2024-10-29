@@ -1,0 +1,14 @@
+# Set the default
+* text=auto
+
+ behavior to automatically normalize line endings
+* text=auto
+*.java text eol=lf
+
+
+# Explicitly define the line endings for
+* 
+
+# Explicitly define
+ certain files
+*.java text eol=lf
