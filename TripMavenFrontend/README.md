@@ -35,14 +35,14 @@ npm install react-router-dom@6 --legacy-peer-deps 이것두
 08/29 npm install react-kakao-maps-sdk  --legacy-peer-deps
       npm install react-transition-group --legacy-peer-deps
 09/02 npm install @mui/icons-material --legacy-peer-deps
-09/04 npm install react-d3-cloud --force
+09/04 npm install react-d3-cloud --legacy-peer-deps
 09/10 npm install moment --legacy-peer-deps
       npm install recharts --legacy-peer-deps
 
 09/11 npm install face-api.js --legacy-peer-deps
       npm install chart.js react-chartjs-2 --legacy-peer-deps
 
-09/13 npm install @wmik/use-media-recorder --force
+09/13 npm install @wmik/use-media-recorder --legacy-peer-deps
 
 09/15 npm install react-modal --legacy-peer-deps
 09/23 npm install react-type-animation --legacy-peer-deps
