@@ -1,7 +1,10 @@
 ## 🎯 기술 스택
-FrontEnd : React
-BackEnd : SpringBoot, Python(AI)
-DBVS : Oracle
+프론트엔드: React, JavaScript, HTML5, CSS3
+백엔드: Spring Boot, Python (FastAPI, AI)
+데이터베이스: Oracle, SQL Developer
+버전 관리: Git, GitHub
+UI/UX 디자인: Figma
+기타: 외부 API 통합
 
 ## 👩‍🦰 나의 역할
 **엔터티 및 DTO 설계**를 통한 데이터 모델링 및 구조 최적화
@@ -16,6 +19,5 @@ Mediapipe와 OpenCV를 이용한 **실시간 얼굴 랜드마크 추적 및 분�
 Matplotlib을 활용한 **표정 데이터 시각화 및 분석 기능** 구축
 React-Quill 라이브러리를 통한 블로그 글 작성 기능으로 콘텐츠 관리 시스템 강화
 
-
-##  팀 프로젝트 발표 자료
+## 🏅 발표 자료
 [트립메이븐 최종발표.pdf](https://github.com/user-attachments/files/17569107/default.pdf)
