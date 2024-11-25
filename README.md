@@ -1,9 +1,9 @@
 ## 🎯 기술 스택
- - 프론트엔드 :  **React, JavaScript, HTML5, CSS3**\
- - 백엔드 :  **Spring Boot, Python (FastAPI, AI)**\
- - 데이터베이스 :  **Oracle, SQL Developer**\
- - 버전 관리 :  **Git, GitHub**\
- - UI/UX 디자인 :  **Figma**\
+ - 프론트엔드 :  **React, JavaScript, HTML5, CSS3**
+ - 백엔드 :  **Spring Boot, Python (FastAPI, AI)**
+ - 데이터베이스 :  **Oracle, SQL Developer**
+ - 버전 관리 :  **Git, GitHub**
+ - UI/UX 디자인 :  **Figma**
  - 기타 :  **외부 API 통합**
 
 ## 👩‍🦰 나의 역할
